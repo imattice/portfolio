@@ -1,0 +1,39 @@
+#view-box {
+    margin-top: 1em;
+    height: 20em;
+    width: 100%;
+    border: solid 2px black;
+}
+
+/*#header-inline {
+
+}*/
+
+#social {
+    display: inline-block;
+    float: right;
+}
+
+#projects-container {
+    margin: 0px;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project-one, #project-two, #project-three {
+    height: 16em;
+    width: 16em;
+    border: solid 1px black;
+    display: inline-block;
+    margin: .5em;
+}
+
+#project-two {
+
+}
+
+#project-three {
+
+}
