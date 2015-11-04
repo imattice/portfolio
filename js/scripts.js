@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-    $('.tab a').click(function(e) {
+    $('.nav a').click(function(e) {
         e.preventDefault()
-        $(this).tab('show')
+        $(this).addClass('.active')
     });
 });

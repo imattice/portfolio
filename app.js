@@ -2,7 +2,7 @@ var ike = angular.module('ike', ['ui.router']);
 
 ike.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider.state('projects', {
-        url:'/',
+        url:'',
         views: {
             'header': {
                 templateUrl:'html/header.html',
