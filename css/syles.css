@@ -1,11 +1,3 @@
-#view-box {
-    margin-top: 1em;
-    height: 40em;
-    width: 100%;
-    border: solid 2px black;
-    border-radius: 5px;
-}
-
 #header-inline {
     position: relative;
 }
@@ -14,6 +6,18 @@
     position: relative;
     display: inline-block;
     float: right;
+}
+
+#view-box {
+    margin-top: 1em;
+    height: 40em;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.title {
+    margin: 1%;
 }
 
 #projects-container {
@@ -35,6 +39,7 @@
     display: flex;
     position: static;
     box-shadow: 2px 2px 2px black;
+    clear: both;
 }
 
 #project-one {
@@ -68,15 +73,26 @@
     position: absolute;
 }
 
-#fluent-lang {
-    position:relative;
-    float: left;
-}
+/*skills.html*/
 
-#experimental-lang {
-    position:relative;
-    float: right;
-}
+    #fluent-lang {
+        position:relative;
+        float: left;
+        /*width: 80%;
+        height: auto;*/
+        /*margin-left: 4em;
+        margin-right: 4em;*/
+        margin: 0 auto;
+
+    }
+
+    .lang_icon {
+        height: 15em;
+        width: auto;
+        margin: 1%;
+        border: dashed 1px black;
+        padding: .5%;
+    }
 
 #puppy {
     height: 173px;
