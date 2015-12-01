@@ -1,77 +1,89 @@
-#header-inline {
-    position: relative;
-}
+/*header*/
 
-#social {
-    position: relative;
-    display: inline-block;
-    float: right;
-}
+    #logo {
+        font-size: 5em;
+        font-weight: bold;
+    }
 
-#view-box {
-    margin-top: 1em;
-    height: 40em;
-    width: 100%;
-    border: solid 2px black;
-    border-radius: 5px;
-}
+    #header-inline {
+        position: relative;
+    }
 
-.title {
-    margin: 1%;
-}
+    #social {
+        position: relative;
+        display: inline-block;
+        float: right;
+    }
 
-#projects-container {
-    margin: 0px;
-    height: 20em;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#project-one, #project-two, #project-three {
-    height: 16em;
-    width: 16em;
-    border: solid 1px black;
-    display: inline-block;
-    margin: 2em;
-    border-radius: 5px;
-    /*margin-top: 20em;*/
-    display: flex;
-    position: static;
-    box-shadow: 2px 2px 2px black;
-    clear: both;
-}
+/*viewbox*/
 
-#project-one {
+    #view-box {
+        margin-top: 1em;
+        height: 40em;
+        width: 100%;
+        border: solid 2px black;
+        border-radius: 5px;
+    }
 
-}
+    #view-box > * {
+        margin: 1%;
+    }
 
-#project-two {
+/*projects.html*/
 
-}
+    #projects-container {
+        margin: 0px;
+        height: 20em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project-one, #project-two, #project-three {
+        height: 24em;
+        width: 24em;
+        border: solid 1px black;
+        display: inline-block;
+        margin: 2em;
+        margin-top: auto;
+        border-radius: 5px;
+        /*margin-top: 20em;*/
+        display: flex;
+        position: static;
+        box-shadow: 2px 2px 2px black;
+        clear: both;
+    }
 
-#project-three {
+    #project-one {
 
-}
+    }
 
-#image_wrapper {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
+    #project-two {
 
-.project {
-    width: auto;
-    height: 100%;
-    margin-left: -1em;
-}
+    }
 
-.project_description {
-    margin-top: 40em;
-    /*color: white;*/
-    z-index: 2;
-    position: absolute;
-}
+    #project-three {
+
+    }
+
+    #image_wrapper {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .project {
+        width: auto;
+        height: 100%;
+        margin-left: -1em;
+    }
+
+    .project_description {
+        margin-top: 40em;
+        /*color: white;*/
+        z-index: 2;
+        position: absolute;
+    }
 
 /*skills.html*/
 
@@ -94,9 +106,13 @@
         padding: .5%;
     }
 
-#puppy {
-    height: 173px;
-    width: 304px;
-    border: solid 2px black;
-    position: relative;
-}
+/*about.html*/
+
+    #puppy {
+        height: 173px;
+        width: 304px;
+        border: solid 2px black;
+        position: relative;
+        margin-top: 16em;
+        margin-left: 40%;
+    }
