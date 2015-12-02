@@ -1,8 +1,22 @@
+body {
+    background-color: #474747;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #83B056;
+}
+
 /*header*/
 
     #logo {
         font-size: 5em;
         font-weight: bold;
+        color: white;
+        text-shadow: 3px 2px 5px rgba(150, 150, 150, 1);
     }
 
     #header-inline {
@@ -21,8 +35,9 @@
         margin-top: 1em;
         height: 40em;
         width: 100%;
-        border: solid 2px black;
+        border: solid 3px #83B056;
         border-radius: 5px;
+        background-color: #868A89;
     }
 
     #view-box > * {
@@ -33,6 +48,7 @@
 
     #projects-container {
         margin: 0px;
+        margin-top: 3em;
         height: 20em;
         width: 100%;
         display: flex;
@@ -44,7 +60,7 @@
         width: 24em;
         border: solid 1px black;
         display: inline-block;
-        margin: 2em;
+        margin: 5em;
         margin-top: auto;
         border-radius: 5px;
         /*margin-top: 20em;*/
@@ -79,7 +95,7 @@
     }
 
     .project_description {
-        margin-top: 40em;
+        /*margin-top: -3em;*/
         /*color: white;*/
         z-index: 2;
         position: absolute;
@@ -87,15 +103,16 @@
 
 /*skills.html*/
 
-    #fluent-lang {
+    #lang-container {
         position:relative;
         float: left;
         /*width: 80%;
         height: auto;*/
         /*margin-left: 4em;
         margin-right: 4em;*/
-        margin: 0 auto;
-
+        /*margin: 0 auto;*/
+        margin-left: 7%;
+        margin-right: 7%;
     }
 
     .lang_icon {
@@ -113,6 +130,19 @@
         width: 304px;
         border: solid 2px black;
         position: relative;
-        margin-top: 16em;
-        margin-left: 40%;
+        margin-top: 8%;
+        margin-left: 35%;
+    }
+
+    #profile_pic {
+        position: static;
+        border: solid 2px black;
+        transform: rotate(7deg);
+        margin-left: 72%;
+        margin-top: -62%;
+    }
+
+    .about_me {
+        font-size: 20px;
+        width: 65%;
     }
